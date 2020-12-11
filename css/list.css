@@ -1,0 +1,74 @@
+.header{
+    width: 1190px;
+    height: 29px;
+    font-size: 12px;
+    color: #555;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+.header .left ,.header .right , .header .right ul{
+    display: flex;
+    align-items: center;
+}
+.header .left p ,.header .right p , .header .right ul li{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header .left p:nth-child(1){
+    border-right: 1px solid #555;
+    padding-left: 16px;
+}
+.header .left p:nth-child(1) {
+    background: url('../images/alibar.png') no-repeat;
+    background-position: 0 -115px;
+}
+.header .left p:nth-child(3) {
+    padding-left: 15px;
+    background: url('../images/hongbao.png') no-repeat left center;
+}
+.header .left p:nth-child(1) a:hover{
+    color: #ff7300;
+    text-decoration: underline;
+}
+.header .right p a:hover{
+    color: #ff7300;
+    text-decoration: underline;
+}
+.header .right ul li:nth-child(2) span:nth-child(2){
+    height: 15px;
+    line-height: 15px;
+    /* margin-top: 7px; */
+    margin-left: 3px;
+    margin-right: 2px;
+    background: url('../images/alibar.png') no-repeat;
+    background-position: 0 0;
+}
+.header .right ul li:nth-child(1) span:nth-child(2) em{
+    height: 15px;
+    padding: 0 3px;
+    line-height: 15px;
+    background-color: #ff7300;
+    font-style: nomal;
+    color: #fff;
+    margin-left: 3px;
+    position: relative;
+}
+.hide{
+    display: none;
+}
+.header .right ul li {
+    border-right: 1px solid #ddd;
+} 
+.header .right ul li span:nth-child(1):hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+

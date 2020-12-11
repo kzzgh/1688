@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    vertical-align: top;
+}
+ul , ol , li{
+    list-style: none;
+    
+}
+input,button{
+    border: none;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}

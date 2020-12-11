@@ -1,0 +1,214 @@
+.head{
+    width: 952px;
+    margin: 0 auto;
+    padding: 12px 4px;
+    height: 49px;
+}
+
+.head .ali-logo{
+    float: left;
+}
+.head .ali-logo h1{
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.head .ali-logo h1 a{
+    float: left;
+    display: inline;
+    margin: 4px 12px 0 0;
+    padding: 4px;
+    width: 153px;
+    height: 37px;
+    border-radius: 2px;
+    text-decoration: none;
+    text-indent: -9999px;
+    background: url('../images/logo.png') 50px 3px no-repeat;
+}
+.head .ali-logo h1 a:hover{
+    box-shadow: rgba(0,0,0,0.2) 0 0 1px 1px;
+}
+.head .ali-logo h1 span{
+    float: left;
+    display: inline;
+    padding-left: 12px;
+    height: 49px;
+    line-height: 49px;
+    background-position: -160px top;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    font-size: 22px;
+    font-weight: 700;
+    color: #666;
+}
+
+.content{
+    zoom: 1;
+    padding-top: 16px;
+    width: 952px;
+    margin: 0 auto;
+    padding: 0 4px;
+}
+.content .main{
+    width: 952px;
+    height: 436px;
+    display: flex;
+}
+.content .main .feature{
+    float: left;
+    width: 578px;
+    height: 350px;
+}
+.content .main .feature a{
+    width: 578px;
+    height: 350px;
+    display: block;
+    cursor: pointer;
+    color: #666;
+}
+.content .main .feature a img{
+    border: none;
+}
+
+.content .formarea{
+    float: left;
+    width: 312px;
+    margin-left: 60px;
+    background: #FFFFFF;
+}
+.content .formarea .msgTip{
+    width: 360px;
+    height: 32px;
+    line-height: 32px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e7d3ac;
+    margin-bottom: 2px;
+    font-size: 12px;
+    color: #f27800;
+    text-indent: 40px;
+    background-color: #fffbdd;
+    background-image: url('../images/xiaoxi.png');
+    background-position: 12px 8px;
+    background-repeat: no-repeat;
+}
+.content .formarea .login{
+    width: 310px;
+}
+.content .formarea .login .signin-title{
+    font-size: 15px;
+    margin: 17px auto 0 auto;
+    width: 250px;
+}
+.content .formarea .login .login_box{
+    border: 1px solid #ccc;
+    width: 356px;
+    margin-left: 0;
+    min-height: auto;
+    padding: 25px 25px 23px;
+    /* color: #6c6c6c; */
+    background: #fff;
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.content .formarea .login .login_box h1{
+    font-size: 18px;
+    width: 304px;
+    height: 27px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+
+}
+.content .formarea .login .login_box form{
+    width: 304px;
+}
+.content .formarea .login .login_box form .login-error{
+    width: 304px;
+    height: 30px;
+    line-height: 30px;
+    background-color: pink;
+    border: 1px solid #f40;
+    box-sizing: border-box;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+    display: none;
+}
+.hide{
+    display: block;
+}
+.content .formarea .login .login_box form .u{
+    width: 304px;
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.content .formarea .login .login_box form .p{
+    width: 304px;
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.content .formarea .login .login_box form div .fm-filed{
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+}
+
+.content .formarea .login .login_box form div .inp{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-left: 10px;
+    position: absolute;
+    top: 1px;
+    left: 40px;
+}
+.content .formarea .login .login_box form p{
+    width: 304px;
+    height: 40px;
+    background-color: #f40;
+    text-align: center;
+    line-height: 40px;
+}
+.content .formarea .login .login_box form p input{
+    background-color: #f40;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.content .formarea .login .login_box form ul{
+    width: 304px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.content .formarea .login .login_box form ul li {
+    height: 18px;
+    box-sizing: border-box;
+    padding: 0px 5px;
+    line-height: 18px;
+
+}
+.content .formarea .login .login_box form ul li a{
+    color: #6c6c6c;
+}
+
+
+
+
+
